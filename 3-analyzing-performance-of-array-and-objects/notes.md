@@ -1,3 +1,5 @@
+# Analyzing Performance of Arrays and Objects
+
 ## Objectives
 
 - Understand how objects and arrays work, through the lens of Big O
