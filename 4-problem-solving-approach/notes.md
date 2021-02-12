@@ -97,3 +97,41 @@ function charCount(str) {
   // return an object with keys that are lowercase alphanumeric characters in the string; values should be the counts for those characters
 }
 ```
+
+## Solve/ Simply
+
+Solve the Prolem (**if you can't** _Solve a simpler problem_)
+
+- Find the core difficulty in what you're trying to do (what's tripping you up?)
+- Temporarily ignore that difficulty
+- Write a simplified solution
+- Then incorporate that difficulty back in
+
+### Example Problem
+
+Write a function which takes in a string and returns counts of each charater in the string
+
+```
+function charCount(str) {
+  // make object to return at end
+  let result = []
+  // loop over string, for each character
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i].toLowerCase()
+    // if the char is a number/letter AND is a key in obj, add one to count
+    if (result[char] > 0) {
+      result[char]++;
+    // if the char is a number/letter AND is not in object, add it and set it to 1
+    } else {
+      result[char] = 1;
+    }
+    //if the char is something else ( space, period, etc.) don't do anything
+  }
+  // return an object with keys that are lowercase alphanumeric characters in the string; values should be the counts for those characters
+  return result;
+}
+```
+
+> More research/ discussing with interviewer how to solve for alphanumeric chars
+
+Get 90% of the way there, and discuss any difficulties, once you have an answer to that difficulty just plug it in
