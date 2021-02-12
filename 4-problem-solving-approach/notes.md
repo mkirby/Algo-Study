@@ -80,3 +80,20 @@ charCount("")
 ```
 
 > Question: What are invalid inputs? numbers? spaces? and what do we return on an invalid input? empty obj? null? undefined? error?
+
+## Break It Down
+
+Explicitly write out the steps you need to take! Does not need to be full sudocode
+
+> This forces you to think about the code you'll write before you write it, and helps you catch any lingering conceptual issues or misunderstandings before you dive in and have to worry about details (e.g. language syntax) as well.
+
+```
+function charCount(str) {
+  // make object to return at end
+  // loop over string, for each character
+    // if the char is a number/letter AND is a key in obj, add one to count
+    // if the char is a number/letter AND is not in object, add it and set it to 1
+    //if the char is something else ( space, period, etc.) don't do anything
+  // return an object with keys that are lowercase alphanumeric characters in the string; values should be the counts for those characters
+}
+```
