@@ -225,3 +225,24 @@ function isAlphanumeric(char) {
   return true;
 }
 ```
+
+## Recap!
+
+- **Understand the Problem**
+  - Ask questions
+  - Clarify the problem
+- **Explore Concrete Examples**
+  - inputs , outputs, edge cases
+  - errors, invalid entries
+  - hand in hand with understanding the problem
+- **Break It Down**
+  - sudo code
+  - outline steps
+- **Solve / Simplify**
+  - solve, if you can't, then simplify the problem
+  - reincorporate the difficulty later
+- **Look Back & Refactor**
+  - analyze
+  - sometimes refactor
+  - how did someone else solve this?
+  - scrutinize, what can I do better?
