@@ -10,7 +10,7 @@ Almost everything that is done in programming involves some kind of algorithm
 
 ### How to Improve
 
-1. Devise a plan for solving problems
+1. **Devise a plan for solving problems**
 2. Master common problem solving patterns
 
 Problem Solving
