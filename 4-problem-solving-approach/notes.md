@@ -6,7 +6,7 @@ what is an algorithm?
 
 - a process or set of steps to accomplish a certain task
 
-Almost everything that is done if programming involves some kind of algorithm
+Almost everything that is done in programming involves some kind of algorithm
 
 ### How to Improve
 
@@ -145,7 +145,7 @@ Get 90% of the way there, and discuss any difficulties, once you have an answer 
 - Can you understand it at a glance?
 - Can you use the result or method for some other problem?
 - Can you improve the performance of your solution?
-- Can you tink of other ways to refactor?
+- Can you think of other ways to refactor?
 - How have other people solved this problem?
 
 ```
