@@ -34,7 +34,7 @@ function addUpTo(n) {
 >
 > 0(n) runtime grows relative to n
 
-Big O notation allows up to talk about how the runtime of an algorithm grows as the inputs grow.
+Big O notation allows us to talk about how the runtime of an algorithm grows as the inputs grow.
 
 ## Simplifying Big O Expressions
 
@@ -86,10 +86,8 @@ function double(arr) {
 Logarithmic time complexity is great!
 
 - Certain searching algorithms have logarithmic time complexity
-- Efficient sorting algorithms involce logarithms
-- Recursion sometimes involces logarithmic space complexity
-
-<span style="color:red">some red text</span>
+- Efficient sorting algorithms invoke logarithms
+- Recursion sometimes invokes logarithmic space complexity
 
 ## Recap
 
