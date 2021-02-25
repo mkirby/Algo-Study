@@ -170,3 +170,31 @@ function maxSubarraySum(arr, num) {
 ```
 
 > Sliding Window Solution O(n)
+
+## Divide and Conquer
+
+This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data.
+
+This pattern can tremendouly decrease time complexity.
+
+This is a brief overview that will be covered during more indepth during searching algorithms.
+
+### Example Problem
+
+Given a sorted array of integers, write a function called search, that accepts a value and returns the index where the value passed to the function is located. If the value is not found, retrun -1.
+
+```
+search([1,2,3,4,5,6], 4) // 3
+        ^ --> ^
+```
+
+> Naive Solution O(n) Linear Search (One Index at a time)
+
+```
+search([1,2,3,4,5,6,10,12,13,14,15,18,22,23,25], 18) //
+      ignore this n > 13   ^  --look over here--
+```
+
+> Binary Search (Divide and Conquer Algorithm)
+
+Divide the array in half, is the value greater than, less than, or equal to what we're looking for. If the value is great than or less than the expected value then we discard the half the array that's not applicable. Look at the other half of the data where we then do the same thing. Split it in half and further compare until we find n.
